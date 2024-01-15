@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"title":"Garden Home","dg-created":"2024-01-15,15:34:13","tags":["","gardenEntry","gardenEntry"],"permalink":"/Garden Home/","dgPassFrontmatter":true}
+{"dg-home":true,"dg-publish":true,"title":"Garden Home","dg-created":"2024-01-15,15:34:13","permalink":"/Garden Home/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 
