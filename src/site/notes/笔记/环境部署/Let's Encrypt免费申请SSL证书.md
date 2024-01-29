@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Let's Encrypt免费申请SSL证书","created":"2024/01/16, 15:18","updated":"2024/01/16, 15:18","tags":["tool"],"dg-path":"环境部署/Let's Encrypt免费申请SSL证书.md","permalink":"/环境部署/Let's Encrypt免费申请SSL证书/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Let's Encrypt免费申请SSL证书","created":"2024-01-16 15:18","updated":"2024-01-29 15:00","tags":["tool"],"dg-path":"环境部署/Let's Encrypt免费申请SSL证书.md","permalink":"/环境部署/Let's Encrypt免费申请SSL证书/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
