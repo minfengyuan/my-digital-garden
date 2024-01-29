@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"WSL2开发环境","created":"2024/01/16, 15:17","updated":"2024/01/17, 08:40","tags":["ubuntu","cuda"],"dg-path":"算法开发/WSL2开发环境.md","permalink":"/算法开发/WSL2开发环境/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"WSL2开发环境","created":"2024-01-16 15:17","updated":"2024-01-29 15:00","tags":["ubuntu","cuda"],"dg-path":"算法开发/WSL2开发环境.md","permalink":"/算法开发/WSL2开发环境/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
