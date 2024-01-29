@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Linux实现远程桌面环境","created":"2024/01/16, 15:16","updated":"2024/01/16, 15:16","tags":["ubuntu","tool"],"dg-path":"环境部署/Linux实现远程桌面环境.md","permalink":"/环境部署/Linux实现远程桌面环境/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Linux实现远程桌面环境","created":"2024-01-16 15:16","updated":"2024-01-29 15:00","tags":["ubuntu","tool"],"dg-path":"环境部署/Linux实现远程桌面环境.md","permalink":"/环境部署/Linux实现远程桌面环境/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
