@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Ubuntu编译OpenWrt (Lean's LEDE)","created":"2024/01/16, 15:20","updated":"2024/01/16, 15:20","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu编译OpenWrt (Lean's LEDE).md","permalink":"/环境部署/Ubuntu编译OpenWrt (Lean's LEDE)/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Ubuntu编译OpenWrt (Lean's LEDE)","created":"Jan 16, 2024 03:20 PM","updated":"Jan 29, 2024 02:38 PM","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu编译OpenWrt (Lean's LEDE).md","permalink":"/环境部署/Ubuntu编译OpenWrt (Lean's LEDE)/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
