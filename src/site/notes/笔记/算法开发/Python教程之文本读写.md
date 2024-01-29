@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Python教程之文本读写","created":"2024/01/16, 15:19","updated":"2024/01/17, 08:33","tags":["python"],"dg-path":"算法开发/Python教程之文本读写.md","permalink":"/算法开发/Python教程之文本读写/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Python教程之文本读写","created":"2024-01-16 15:19","updated":"2024-01-29 15:00","tags":["python"],"dg-path":"算法开发/Python教程之文本读写.md","permalink":"/算法开发/Python教程之文本读写/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
