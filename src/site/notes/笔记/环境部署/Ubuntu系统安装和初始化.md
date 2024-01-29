@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Ubuntu系统安装和初始化","created":"2024/01/16, 15:08","updated":"2024/01/16, 15:17","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu系统安装和初始化.md","permalink":"/环境部署/Ubuntu系统安装和初始化/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Ubuntu系统安装和初始化","created":"2024-01-16 15:08","updated":"2024-01-29 15:00","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu系统安装和初始化.md","permalink":"/环境部署/Ubuntu系统安装和初始化/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
