@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"SSH使用教程","created":"2024/01/16, 15:16","updated":"2024/01/16, 15:16","tags":["tool"],"dg-path":"环境部署/SSH使用教程.md","permalink":"/环境部署/SSH使用教程/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"SSH使用教程","created":"2024-01-16 15:16","updated":"2024-01-29 15:00","tags":["tool"],"dg-path":"环境部署/SSH使用教程.md","permalink":"/环境部署/SSH使用教程/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
