@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Homebrew使用教程","created":"2023/12/21, 08:45","updated":"2024/01/16, 16:22","tags":["tool"],"dg-path":"环境部署/Homebrew使用教程.md","permalink":"/环境部署/Homebrew使用教程/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Homebrew使用教程","created":"2023-12-21 08:45","updated":"2024-01-29 15:00","tags":["tool"],"dg-path":"环境部署/Homebrew使用教程.md","permalink":"/环境部署/Homebrew使用教程/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
