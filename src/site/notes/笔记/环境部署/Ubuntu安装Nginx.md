@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Ubuntu安装Nginx","created":"2024/01/16, 15:17","updated":"2024/01/16, 15:17","tags":["ubuntu","nginx","tool"],"dg-path":"环境部署/Ubuntu安装Nginx.md","permalink":"/环境部署/Ubuntu安装Nginx/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Ubuntu安装Nginx","created":"2024-01-16 15:17","updated":"2024-01-29 15:00","tags":["ubuntu","nginx","tool"],"dg-path":"环境部署/Ubuntu安装Nginx.md","permalink":"/环境部署/Ubuntu安装Nginx/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
