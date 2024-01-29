@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Ubuntu常用命令","created":"2024/01/16, 15:09","updated":"2024/01/16, 15:17","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu常用命令.md","permalink":"/环境部署/Ubuntu常用命令/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"title":"Ubuntu常用命令","created":"2024-01-16 15:09","updated":"2024-01-29 15:00","tags":["ubuntu"],"dg-path":"环境部署/Ubuntu常用命令.md","permalink":"/环境部署/Ubuntu常用命令/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
