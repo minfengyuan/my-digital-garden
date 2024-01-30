@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Let's Encrypt免费申请SSL证书","created":"2024-01-16 15:18","updated":"2024-01-29 15:00","tags":["tool"],"permalink":"/Engineering Wiki/Let's Encrypt免费申请SSL证书/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"title":"Let's Encrypt免费申请SSL证书","created":"2024-01-16 15:18","updated":"2024-01-30 11:02","tags":["tool"],"permalink":"/Engineering Wiki/Let's Encrypt免费申请SSL证书/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
@@ -75,7 +75,7 @@ Certbot 官方推荐使用 snap 安装，当然你也可以使用 yum 或者 dnf
 
     如果 domain.ini 文件没有你的根域名，请自行添加。
 
-	（2） au.sh
+   （2） au.sh
 
     登录域名服务商的控制台获取 API 密钥，然后配置在 au.sh 文件中。
 
