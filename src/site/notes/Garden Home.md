@@ -5,4 +5,7 @@
 
 # 👏🏻 Welcome To My Garden
 
-This is the home page of my garden
+
+> [!NOTE] 不忘初心
+>汲取自开源，反哺于开源  
+>Derive from open source, return a favor
