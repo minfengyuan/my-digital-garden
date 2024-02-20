@@ -113,7 +113,7 @@ ssh [OPTIONS] [-p PORT] [USER@]HOSTNAME [COMMAND]
 	如果是 Windows 系统或者无网络环境的情况下，输入下列命令：
 
     ```bash
-    cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && chmod700 ~/.ssh"
+    cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && chmod 700 ~/.ssh"
     ```
 3. [可选] 修改服务器 sshd_config 配置文件
 
