@@ -65,9 +65,9 @@ chown -R $user /path/to/change/group # 改变同一目录下的所有文件夹
 
 1. 编写脚本
 
-  ```bash
-  vim test.sh
-  ```
+	  ```bash
+	  vim test.sh
+	  ```
 
 	先添加脚本内容抬头
 
@@ -84,6 +84,7 @@ chown -R $user /path/to/change/group # 改变同一目录下的所有文件夹
     # Description:    start test
     ### END INIT INFO
     ```
+
 	然后开始编写脚本内容
 
 2. 将编写的脚本放入 `/etc/init.d/`
