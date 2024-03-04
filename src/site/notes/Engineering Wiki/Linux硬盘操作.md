@@ -2,7 +2,6 @@
 {"dg-publish":true,"title":"Linux硬盘操作","created":"2024-02-26 10:38","updated":"2024-02-26 10:38","tags":["linux"],"permalink":"/Engineering Wiki/Linux硬盘操作/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
-
 # 查看当前磁盘信息
 
 ```shell
