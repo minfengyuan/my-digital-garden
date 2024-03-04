@@ -120,37 +120,6 @@ chown -R $user /path/to/change/group # 改变同一目录下的所有文件夹
   sudo apt-get --purge remove 软件名
   ```
 
-# 磁盘分区
-
-fdisk 命令详解：
-
-m：获取帮助
-
-n：新建分区
-
-p：显示分区表
-
-d：删除分区
-
-b：设置卷标
-
-w：写入分区表
-
-t：改变分区文件系统类型
-
-v：检验分区
-
-l：显示 fdisk 所支持的文件系统代码
-
-q：退出
-
-### 格式化分区
-
-```bash
-mkfs -t ext4 /dev/sda1
-mkfs -t ext4 /dev/sda2
-```
-
 # 后台进程管理
 
 1. &  
@@ -207,36 +176,3 @@ tar -zcvf xx.tar.gz <target folder>/
 # 解压
 tar -zxvf xx.tar.gz <destination folder>
 ```
-
-# 磁盘操作
-
-## 挂载磁盘
-
-1. 查看硬盘 UUID
-
-    ```bash
-    sudo blkid
-    ```
-
-2. 创建挂载点
-
-    ```bash
-    sudo mkdir /mnt/xxx
-    ```
-
-3. 挂载
-
-    ```bash
-    mount /dev/xxx /mnt/xxx
-    ```
-
-4. 开机自动挂载
-
-    ```bash
-    # 修改/etc/fstab文件内容
-    sudo vim /etc/fstab
-    # 添加到文件
-    UUID=XXX-XXX-XXX /mnt/xx ext4 defaults 0 2
-    # 挂载NTFS文件系统
-    UUID= /mnt/xxx ntfs defaults 0 2
-    ```
