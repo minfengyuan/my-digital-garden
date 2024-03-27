@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"python环境安装与卸载","created":"2024-03-22 14:54","updated":"2024-03-25 10:06","tags":["deep-learning","python"],"permalink":"/Engineering Wiki/python环境安装与卸载/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"title":"python环境安装与卸载","created":"2024-03-22 14:54","updated":"2024-03-25 14:16","tags":["deep-learning","python"],"permalink":"/Engineering Wiki/python环境安装与卸载/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
@@ -56,13 +56,18 @@
 	
 	# 从已有环境拷贝
 	conda create -n NEW_ENV_NAME --clone EXIST_ENV_NAME
+	
+	# 创造离线环境
+	conda create -n NEW_ENV_NAME --offline
 	```
 
 # 离线环境
 
-在不方便联网的机器上安装虚拟环境，可以通过离线包的方式安装。
+有些时候需要在不方便联网的机器上安装虚拟环境，可以通过离线的方式安装。
 
-1. 在可以联网的机器上切换到想要导出的环境，输出环境依赖包到本地文件
+## 通过 Wheel 包安装
+
+1. 在一台可以联网的机器上切换到想要导出的环境，输出环境依赖包到本地文件
 
 	```shell
 	pip freeze > requirements.txt
@@ -82,6 +87,28 @@
 	```shell
 	pip install --no-index --find-links=wheelhouse -r requirements.txt
 	```
+
+## 打包整个虚拟环境
+
+1. 在本机安装 conda-pack
+
+	```
+	pip install conda-pack
+	```
+
+2. 打包 conda 环境
+
+	```
+	conda pack -n ENV_NAME
+	```
+
+	打包之后的文件名为 `ENV_NAME.tar.gz`。
+
+3. 上传 `ENV_NAME.tar.gz` 到目标主机的 conda 环境中
+
+	在目标主机的 `path/conda/env` 创建文件夹，再将压缩包解压到文件夹。
+
+4. 最后激活使用
 
 # 更换国内镜像源
 
