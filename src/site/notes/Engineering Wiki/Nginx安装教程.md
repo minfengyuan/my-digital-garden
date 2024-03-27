@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"title":"Nginx安装教程","created":"2024-03-04 18:53","updated":"2024-03-04 18:53","tags":["nginx","linux","macos","docker"],"permalink":"/Engineering Wiki/Nginx安装教程/","dgPassFrontmatter":true,"noteIcon":"1"}
+{"dg-publish":true,"title":"Nginx安装教程","created":"2024-03-04 18:53","updated":"2024-03-07 14:04","tags":["nginx","linux","macos","docker"],"permalink":"/Engineering Wiki/Nginx安装教程/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
-# 以下是在不同平台上安装 Nginx 的指南
+# 在不同平台上安装 Nginx
 
 ## Debian/Ubuntu
 
@@ -110,8 +110,28 @@ docker pull nginx:latest
 docker run --name some-nginx -p 8080:80 -d nginx
 ```
 
-可以通过挂载自己的配置文件来实现自定义配置
+可以通过挂载自己的配置文件来实现自定义配置:
 
 ```shell
 docker run --rm --entrypoint=cat nginx /etc/nginx/nginx.conf > /host/path/nginx.conf
+```
+
+## Nginx Proxy Manager
+
+Nginx Proxy Manager 是一款可视化的 Nginx 管理工具，请创建以下 docker-compose 文件并运行:
+
+```
+version: "3"
+services:
+  nginx:
+    container_name: npm
+    image: jc21/nginx-proxy-manager:latest
+    ports:
+      - '8188:80'
+      - '8189:81'
+      - '8190:443'
+    volumes:
+      - "/host/path/to/nginx/data:/data"
+      - "/host/path/to/nginx/letsencrypt:/etc/letsencrypt"
+    restart: unless-stopped
 ```
